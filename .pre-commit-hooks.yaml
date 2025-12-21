@@ -1,0 +1,10 @@
+- id: ty-check
+  name: ty check
+  description: "Run 'ty check' for extremely fast Python type checking."
+  entry: ty check
+  language: python
+  types_or: [python, pyi, jupyter]
+  args: []
+  require_serial: true
+  additional_dependencies: []
+  minimum_pre_commit_version: "2.9.2"

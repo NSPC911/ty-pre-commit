@@ -4,12 +4,12 @@
 [![image](https://img.shields.io/pypi/v/ty/0.0.8.svg)](https://pypi.python.org/pypi/ty)
 [![image](https://img.shields.io/pypi/l/ty/0.0.8.svg)](https://pypi.python.org/pypi/ty)
 [![image](https://img.shields.io/pypi/pyversions/ty/0.0.8.svg)](https://pypi.python.org/pypi/ty)
-[![Actions status](https://github.com/NSPC911/ty-pre-commit/workflows/main/badge.svg)](https://github.com/NSPC911/ty-pre-commit/actions)
+[![Actions status](https://github.com/NSPBot911/ty-pre-commit/workflows/main/badge.svg)](https://github.com/NSPBot911/ty-pre-commit/actions)
 
 A [pre-commit](https://pre-commit.com/) hook for [ty](https://github.com/astral-sh/ty).
 
-Distributed as a standalone repository to enable installing Ruff via prebuilt wheels from
-[ty](https://pypi.org/project/ty/).
+Distributed as a standalone repository to enable installing ty via prebuilt wheels from
+[pypi](https://pypi.org/project/ty).
 
 ### Using ty with pre-commit
 
@@ -17,7 +17,7 @@ To run ty's [checker](https://docs.astral.sh/ty/type-checking) via pre-commit, a
 
 ```yaml
 repos:
-- repo: https://github.com/NSPC911/ty-pre-commit
+- repo: https://github.com/NSPBot911/ty-pre-commit
   # ty version.
   rev: v0.0.8
   hooks:
@@ -29,7 +29,7 @@ To avoid running on Jupyter Notebooks, remove `jupyter` from the list of allowed
 
 ```yaml
 repos:
-- repo: https://github.com/NSPC911/ty-pre-commit
+- repo: https://github.com/NSPBot911/ty-pre-commit
   # ty version.
   rev: v0.0.8
   hooks:

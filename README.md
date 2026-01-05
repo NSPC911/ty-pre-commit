@@ -1,9 +1,9 @@
 # ruff-pre-commit
 
 [![ty](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/ty/main/assets/badge/v0.json)](https://github.com/astral-sh/ty)
-[![image](https://img.shields.io/pypi/v/ty/0.0.8.svg)](https://pypi.python.org/pypi/ty)
-[![image](https://img.shields.io/pypi/l/ty/0.0.8.svg)](https://pypi.python.org/pypi/ty)
-[![image](https://img.shields.io/pypi/pyversions/ty/0.0.8.svg)](https://pypi.python.org/pypi/ty)
+[![image](https://img.shields.io/pypi/v/ty/0.0.9.svg)](https://pypi.python.org/pypi/ty)
+[![image](https://img.shields.io/pypi/l/ty/0.0.9.svg)](https://pypi.python.org/pypi/ty)
+[![image](https://img.shields.io/pypi/pyversions/ty/0.0.9.svg)](https://pypi.python.org/pypi/ty)
 [![Actions status](https://github.com/NSPBot911/ty-pre-commit/workflows/main/badge.svg)](https://github.com/NSPBot911/ty-pre-commit/actions)
 
 A [pre-commit](https://pre-commit.com/) hook for [ty](https://github.com/astral-sh/ty).
@@ -19,7 +19,7 @@ To run ty's [checker](https://docs.astral.sh/ty/type-checking) via pre-commit, a
 repos:
 - repo: https://github.com/NSPBot911/ty-pre-commit
   # ty version.
-  rev: v0.0.8
+  rev: v0.0.9
   hooks:
     # Run the linter.
     - id: ty-check
@@ -31,7 +31,7 @@ To avoid running on Jupyter Notebooks, remove `jupyter` from the list of allowed
 repos:
 - repo: https://github.com/NSPBot911/ty-pre-commit
   # ty version.
-  rev: v0.0.8
+  rev: v0.0.9
   hooks:
     # Run the linter.
     - id: ty-check
